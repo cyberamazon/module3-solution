@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #A9A9A9;
+  border-radius: 0;
+  border: 1px solid #000000;
+
+
+}
+
+/*
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+*/
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+  
+  
+}
+/*
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+} 
+.navbar-brand p span { /* Star-K 
+  vertical-align: middle;
+}
+*/
+ 
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+
+}
+#nav-list a:hover {
+  background: #F0FFFF;
+}
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#text-center p {
+  color: #000000;
+  font-size: 10px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 {
+  padding-top: 10px;
+  font-size: 6vw;
+ }
+  
+  }
+
+hr {
+  border-color: black;
+}  
+/* END HEADER */
