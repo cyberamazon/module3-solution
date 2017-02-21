@@ -1,127 +1,58 @@
-body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
-}
-
-/** HEADER **/
 #header-nav {
-  background-color: #A9A9A9;
+  background-color: #999999;
   border-radius: 0;
-  border: 1px solid #000000;
-
-
+  border: 0;
 }
-
-/*
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
-*/
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
-
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #000000;
-  font-size: 1.5em;
+#header-nav .navbar-brand a{
+  font-size: 1.3em;
+  color: black;
+  font-weight: #FFFFFF;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
   line-height: .75;
   text-align: left;
   
-  
 }
-/*
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert 
+.navbar-brand p { /* Kosher cert */
   color: #000;
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: .8em;
   margin-top: 15px;
-} 
-.navbar-brand p span { /* Star-K 
+
+}
+.navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
-*/
- 
-#nav-list {
-  margin-top: 10px;
 
-}
-#nav-list a {
-  color: black;
-  text-align: center;
 
-}
-#nav-list a:hover {
-  background: #F0FFFF;
-}
-#nav-list a span {
-  font-size: 1.8em;
-
+#nav-list{
+  background: white;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.container {
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #000000;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+#header-nav span.icon-bar{
+  background: #e7e7e7;
 }
 
-#text-center p {
-  color: #000000;
-  font-size: 10px;
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #888;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-
+.menu-header{
+  margin-bottom: 40px;
+  font-size:1.8em;
 }
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  /* End Header */
+.menu-content{
+  background: #999999;
+  margin-bottom: 20px;
 }
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
-  .navbar-brand h1 {
-  padding-top: 10px;
-  font-size: 6vw;
- }
-  
-  }
-
-hr {
-  border-color: black;
-}  
-/* END HEADER */
